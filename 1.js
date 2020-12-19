@@ -57,7 +57,7 @@ function checkout(kode,diskon){
                (cCount*C42212.Harga)+
                (dCount*D90312.Harga)+
                (hCount*H12020.Harga)
-    Discount = (10/100)*Subtotal
+    Discount = (diskon/100)*Subtotal
     
     var total = Subtotal-Discount
 
